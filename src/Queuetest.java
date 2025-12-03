@@ -13,8 +13,12 @@ public class Queuetest {
         queue.print();
         queue.peek();
         queue.print();
-        queue.clear();
         queue.size();
+        queue.print();
+        queue.contains(40);
+        queue.print();
+        queue.clear();
+        queue.print();
 
 
     }

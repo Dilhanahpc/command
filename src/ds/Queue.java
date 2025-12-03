@@ -64,6 +64,14 @@ public class Queue {
 
     }
     public boolean contains(int num){
+        if (empty()){
+            return false;
+        }
+        for(int i=0;i<numbers.length-1;i++){
+            if(numbers[i]==num){
+                return true;
+            }
+        }
         return false;
 
     }
