@@ -22,6 +22,7 @@ public class Stacktest  {
         stack.print();
         stack.pop();
         stack.size();
+        stack.clear();
 
 
 
