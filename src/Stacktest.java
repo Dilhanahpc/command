@@ -17,9 +17,11 @@ public class Stacktest  {
         stack.print();
         stack.pop();
         stack.print();
+        stack.peek();
         stack.pop();
         stack.print();
         stack.pop();
+        stack.size();
 
 
 
